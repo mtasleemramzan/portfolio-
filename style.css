@@ -1,0 +1,51 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: white; /* Change brand text color for contrast */
+}
+
+.navbar-custom {
+    background-color: skyblue; /* Set navbar background to sky blue */
+}
+
+/* Ensure navbar links are readable on sky blue background */
+.navbar-custom .navbar-nav .nav-link {
+    color: white; /* Set link text color to white */
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+/* Active link styling */
+.navbar-custom .navbar-nav .nav-link.active {
+    color: #0d6efd; /* Optional: Change active link color if desired */
+}
+
+/* Adjust the toggler icon color */
+.navbar-custom .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-custom .navbar-toggler-icon {
+    background-image: url("abc.jpg");
+}
+
+.container .content {
+    margin-top: 50px;
+}
+
+.container #content p {
+    margin-top: 20px;
+}
